@@ -1,0 +1,13 @@
+{
+  "name": "electricity-payment-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "start": "npm run start --workspace=apps/server"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
